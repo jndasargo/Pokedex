@@ -1,0 +1,41 @@
+<%= link_to 'Home', controller: 'welcome' %>
+<%= link_to 'Edit', edit_beauty_path(@beauty) %>
+
+<p>
+  <strong>Pokemon:</strong>
+  <%= @beauty.pokemon %>
+</p>
+ 
+<p>
+  <strong>Trainer:</strong>
+  <%= @beauty.trainer %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  1<%= @beauty.type1 %>
+  2<%= @beauty.type2 %>
+</p>
+
+<p>
+  <strong>Moves:</strong>
+  1<%= @beauty.move1 %>
+  2<%= @beauty.move2 %>
+  3<%= @beauty.move3 %>
+  4<%= @beauty.move4 %>
+</p>
+
+<p>
+  <strong>Weaknesses:</strong>
+  1<%= @beauty.weakness1 %>
+  2<%= @beauty.weakness2 %>
+</p>
+
+<p>
+  <strong>Evolution:</strong>
+  1<%= @beauty.evolution1 %>
+  2<%= @beauty.evolution2 %>
+  3<%= @beauty.evolution3 %>
+</p>
+
+<%= link_to 'Back', beauties_path %>

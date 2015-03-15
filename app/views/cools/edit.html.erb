@@ -1,0 +1,89 @@
+<%= link_to 'Home', controller: 'welcome' %>
+<h1>Edit Pokemon</h1>
+ 
+<%= form_for :cool, url: cool_path(@cool), method: :patch do |f| %>
+ 
+  <% if @cool.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@cool.errors.count, "error") %> prohibited
+        this cool from being saved:
+      </h2>
+      <ul>
+        <% @cool.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+ <p>
+    <%= f.label :pokemon %><br>
+    <%= f.text_field :pokemon %>
+  </p>
+
+  <p>
+    <%= f.label :trainer %><br>
+    <%= f.text_field :trainer %>
+  </p>
+ 
+  <p>
+    <%= f.label :type %><br>
+  </p>
+  <p>  
+  1<%= f.text_field :type1 %>
+  </p>
+  <p>
+  2<%= f.text_field :type2 %>
+  </p>
+
+  <p>
+    <%= f.label :move %><br>
+    1<%= f.text_field :move1 %>
+  </p>
+
+  <p>
+  
+    2<%= f.text_field :move2 %>
+  </p>
+
+  <p>
+  
+    3<%= f.text_field :move3 %>
+  </p>
+
+  <p>
+    4<%= f.text_field :move4 %>
+  </p>
+
+  <p>
+    <%= f.label :weakness %><br>
+
+    1<%= f.text_field :weakness1 %>
+  </p>
+
+  <p>
+    2<%= f.text_field :weakness2 %>
+  </p>
+
+  <p>
+    <%= f.label :evolution %><br>
+    1<%= f.text_field :evolution1 %>
+  </p>
+
+  <p>
+    2<%= f.text_field :evolution2 %>
+  </p>
+
+  <p>
+    3<%= f.text_field :evolution3 %>
+  </p>
+
+
+  <p>
+    <%= f.submit "Save"%>
+  </p>
+ 
+<% end %>
+ 
+<%= link_to 'Back', cools_path %>

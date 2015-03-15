@@ -1,0 +1,25 @@
+<%= link_to 'Home', controller: 'welcome' %>
+<%= link_to 'New Pokemon', new_cool_path %>
+<h1>Cool</h1>
+
+<table>
+  <tr>
+    <th>Pokemon</th>
+    <th>Trainer</th>
+
+    <th colspan="5"></th>
+  </tr>
+ 
+  <% @cools.each do |cool| %>
+    <tr>
+      <td><%= cool.pokemon %></td>
+      <td><%= cool.trainer %></td>
+     
+      <td><%= link_to 'Show', cool_path(cool) %></td>
+      <td><%= link_to 'Edit', edit_cool_path(cool) %></td>
+      <td><%= link_to 'Destroy', cool_path(cool),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>

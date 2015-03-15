@@ -1,0 +1,41 @@
+<%= link_to 'Home', controller: 'welcome' %>
+<%= link_to 'Edit', edit_smart_path(@smart) %>
+
+<p>
+  <strong>Pokemon:</strong>
+  <%= @smart.pokemon %>
+</p>
+ 
+<p>
+  <strong>Trainer:</strong>
+  <%= @smart.trainer %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  1<%= @smart.type1 %>
+  2<%= @smart.type2 %>
+</p>
+
+<p>
+  <strong>Moves:</strong>
+  1<%= @smart.move1 %>
+  2<%= @smart.move2 %>
+  3<%= @smart.move3 %>
+  4<%= @smart.move4 %>
+</p>
+
+<p>
+  <strong>Weaknesses:</strong>
+  1<%= @smart.weakness1 %>
+  2<%= @smart.weakness2 %>
+</p>
+
+<p>
+  <strong>Evolution:</strong>
+  1<%= @smart.evolution1 %>
+  2<%= @smart.evolution2 %>
+  3<%= @smart.evolution3 %>
+</p>
+
+<%= link_to 'Back', smarts_path %>

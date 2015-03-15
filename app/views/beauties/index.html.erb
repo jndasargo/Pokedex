@@ -1,0 +1,25 @@
+<%= link_to 'Home', controller: 'welcome' %>
+<%= link_to 'New Pokemon', new_beauty_path %>
+<h1>Beauty</h1>
+
+<table>
+  <tr>
+    <th>Pokemon</th>
+    <th>Trainer</th>
+
+    <th colspan="5"></th>
+  </tr>
+ 
+  <% @beauties.each do |beauty| %>
+    <tr>
+      <td><%= beauty.pokemon %></td>
+      <td><%= beauty.trainer %></td>
+     
+      <td><%= link_to 'Show', beauty_path(beauty) %></td>
+      <td><%= link_to 'Edit', edit_beauty_path(beauty) %></td>
+      <td><%= link_to 'Destroy', beauty_path(beauty),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
