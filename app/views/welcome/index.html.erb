@@ -1,6 +1,63 @@
-<h1>Pokemon Colosseum</h1>
+<!--<h1>Pokemon Colosseum</h1>
 
 <%= link_to 'Beauty', controller: 'beauties' %>
 <%= link_to 'Smart', controller: 'smarts' %>
 <%= link_to 'Cool', controller: 'cools' %>
 <%= link_to 'Tough', controller: 'toughs' %>
+-->
+<!DOCTYPE html>
+<html>
+<head><title>Pokemon Colosseum</title></head>
+<link rel="stylesheet" type="text/css" href="master.css">
+<body>
+<center>
+<div class="div_setting">
+	<div class="top top_border">
+		<!--
+	<img src="title.png" class="center_img" alt="title image here">
+	-->
+	<h1>POKEDEX</h1>
+	</div>
+	<div class="bottom bottom_border">
+		<div class="cmenu">
+			<!--<div class="cmenu_left"><img src="logo.png" class="ribbon_img"/></div>-->
+			<div class="cmenu_right">
+				<%= link_to 'Cool', controller: 'cools' %>
+				<span class="cmenu_title">Cool</span>
+				<button class="cmenu_button" href="../cools/show.html.erb">Pokemon List</button>
+				<button class="cmenu_button">Register</button>
+			</div>
+		</div>
+		<div class="cmenu">
+			<!--<div class="cmenu_left"><img src="logo2.png" class="ribbon_img"/></div>-->
+			<div class="cmenu_right">
+				<span class="cmenu_title">Smart</span>
+				<button class="cmenu_button">Pokemon List</button>
+				<button class="cmenu_button">Register</button>
+			</div>
+		</div>
+		<div class="cmenu">
+			<!--<div class="cmenu_left"><img src="logo3.png" class="ribbon_img" style="height:230px;margin-top:-15px;width:165px;margin-left:-10px"/></div>-->
+			<div class="cmenu_right">
+				<span class="cmenu_title">Beauty</span>
+				<button class="cmenu_button">Pokemon List</button>
+				<button class="cmenu_button">Register</button>
+			</div>
+		</div>
+		<div class="cmenu">
+			<!--<div class="cmenu_left"><img src="logo4.gif" class="ribbon_img" style="height:140px;"/></div>-->
+			<div class="cmenu_right">
+				<span class="cmenu_title">Tough</span>
+				<button class="cmenu_button">Pokemon List</button>
+				<button class="cmenu_button">Register</button>
+			</div>
+		</div>
+	</div>
+</div>
+</center>
+<audio loop autoplay controls style="position:fixed;bottom:5px;right:5px">
+  	<source src="song2.mp3" type="audio/mpeg">
+  	Your browser does not support the audio element.
+</audio> 
+</body>
+</html>
