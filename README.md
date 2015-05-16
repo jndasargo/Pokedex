@@ -1,2 +1,4 @@
 # Pokedex
-DevCamp Project 1
+## CSI DevCamp Project 2
+- Install the gem dependencies using 'bundler install'
+- Run 'rails server'
