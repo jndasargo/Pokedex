@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head><title>Pokemon Colosseum</title></head>
-<link rel="stylesheet" type="text/css" href="master.css">
-<body>
+<head>
+     <title>Pokemon Colosseum</title>
+     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     <%= csrf_meta_tags %>
+</head>
+<body> 
+
 <center>
-<div class="container">
-	<div class="top top_border">
-		<!--<img src="title.png" class="center_img" alt="title image here">-->
-	<h1>POKEDEX</h1>
-	</div>
-	<!--<div class="bottom bottom_border">-->
-		<div class="cmenu">
-			<!--<div class="cmenu_left"><img src="logo.png" class="ribbon_img"/></div>-->
-			<div class="cmenu_right">
-				<span class="cmenu_title">Cool</span>
-				<a href="../cools" button class="cmenu_button">Pokemon List</button></a>
-				<a href="../cools/new" button class="cmenu_button">Register</button></a>
-			</div>
-		</div>
-		<div class="cmenu">
-			<!--<div class="cmenu_left"><img src="logo2.png" class="ribbon_img"/></div>-->
-			<div class="cmenu_right">
-				<span class="cmenu_title">Smart</span>
-				<a href="../smarts"><button class="btn btn-large btn-success">Pokemon List</button></a>
-				<a href="../smarts/new" button class="cmenu_button">Register</button></a>
-			</div>
-		</div>
-		<div class="cmenu">
-			<!--<div class="cmenu_left"><img src="logo3.png" class="ribbon_img" style="height:230px;margin-top:-15px;width:165px;margin-left:-10px"/></div>-->
-			<div class="cmenu_right">
-				<span class="cmenu_title">Beauty</span>
-				<a href="../beauties" button class="cmenu_button">Pokemon List</button></a>
-				<a href="../beauties/new" button class="cmenu_button">Register</button></a>
-			</div>
-		</div>
-		<div class="cmenu">
-			<!--<div class="cmenu_left"><img src="logo4.gif" class="ribbon_img" style="height:140px;"/></div>-->
-			<div class="cmenu_right">
-				<span class="cmenu_title">Tough</span>
-				<a href="../toughs" button class="cmenu_button">Pokemon List</button></a>
-				<a href="../toughs/new" button class="cmenu_button">Register</button></a>
-			</div>
-		</div>
-	</div>
-<!--</div>-->
+<div class="div_setting" style="padding:0px;">
+     <div class="top top_border">
+          <img src="/images/title.png" class="center_img">
+     </div>
+     <div class="bottom bottom_border">
+          <div class="cmenu">
+               <div class="cmenu_left"><img src="/images/logo.png" class="ribbon_img"/></div>
+               <div class="cmenu_right">
+                    <span class="cmenu_title">Cool</span>
+                    <a class="cmenu_button" href="../cools">Pokemon List</a>
+                    <a class="cmenu_button" href="../cools/new">Register</a>
+               </div>
+          </div>
+          <div class="cmenu">
+               <div class="cmenu_left"><img src="/images/logo2.png" class="ribbon_img"/></div>
+               <div class="cmenu_right">
+                    <span class="cmenu_title">Smart</span>
+                    <a class="cmenu_button" href="../smarts">Pokemon List</a>
+                    <a class="cmenu_button" href="../smarts/new">Register</a>
+               </div>
+          </div>
+          <div class="cmenu">
+               <div class="cmenu_left"><img src="/images/logo3.png" class="ribbon_img" style="height:230px;margin-top:-15px;width:165px;margin-left:-10px"/></div>
+               <div class="cmenu_right">
+                    <span class="cmenu_title">Beauty</span>
+                    <a class="cmenu_button" href="../beauties">Pokemon List</a>
+                    <a class="cmenu_button" href="../beauties/new">Register</a>
+               </div>
+          </div>
+          <div class="cmenu">
+               <div class="cmenu_left"><img src="/images/logo4.gif" class="ribbon_img" style="height:140px;"/></div>
+               <div class="cmenu_right">
+                    <span class="cmenu_title">Tough</span>
+                    <a class="cmenu_button" href="../toughs">Pokemon List</a>
+                    <a class="cmenu_button" href="../toughs/new">Register</a>
+               </div>
+          </div>
+     </div>
+</div>
 </center>
+
 <audio loop autoplay controls style="position:fixed;bottom:5px;right:5px">
-  	<source src="song2.mp3" type="audio/mpeg">
-  	Your browser does not support the audio element.
-</audio> 
+     <source src="/images/song2.mp3" type="audio/mpeg">
+     Your browser does not support the audio element.
+</audio>
+
 </body>
 </html>

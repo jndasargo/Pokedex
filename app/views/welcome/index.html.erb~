@@ -1,5 +1,0 @@
-<h1>Pokemon Colosseum</h1>
-
-<%= link_to 'Beauty', controller: 'beauties' %>
-<%= link_to 'Smart', controller: 'smarts' %>
-<%= link_to 'Cool', controller: 'cools' %>
