@@ -1,41 +1,52 @@
-<%= link_to 'Home', controller: 'welcome' %>
-<%= link_to 'Edit', edit_beauty_path(@beauty) %>
+<div class="div_setting">
+     <div class="main">
+          <div class="sub_top">
+               <%= link_to 'Pokemon List', beauties_path,  class:"button_link left"%>
+               <%= link_to 'Edit', edit_beauty_path(@beauty), class:"button_link right" %>
+          </div>
 
-<p>
-  <strong>Pokemon:</strong>
-  <%= @beauty.pokemon %>
-</p>
- 
-<p>
-  <strong>Trainer:</strong>
-  <%= @beauty.trainer %>
-</p>
+          <div class="sub_bottom">
+               <div class="sub_left">
+                    <img src="c.png" class="pokemon_profile"/>
+                    <p class="p_title">Pokemon</p>
+                    <p class="p_content add_mb20"><%= @beauty.pokemon %></p>
+                    <p class="p_title">Trainer</p>
+                    <p class="p_content"><%= @beauty.trainer %></p>
+               </div>
 
-<p>
-  <strong>Type:</strong>
-  1<%= @beauty.type1 %>
-  2<%= @beauty.type2 %>
-</p>
-
-<p>
-  <strong>Moves:</strong>
-  1<%= @beauty.move1 %>
-  2<%= @beauty.move2 %>
-  3<%= @beauty.move3 %>
-  4<%= @beauty.move4 %>
-</p>
-
-<p>
-  <strong>Weaknesses:</strong>
-  1<%= @beauty.weakness1 %>
-  2<%= @beauty.weakness2 %>
-</p>
-
-<p>
-  <strong>Evolution:</strong>
-  1<%= @beauty.evolution1 %>
-  2<%= @beauty.evolution2 %>
-  3<%= @beauty.evolution3 %>
-</p>
-
-<%= link_to 'Back', beauties_path %>
+               <div class="sub_right">
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Types</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb30"><%= @beauty.type1 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @beauty.type2 %></div>
+                         </div>
+                    </div>
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Moves</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb10"><%= @beauty.move1 %></div>
+                              <div class="rightcontent_main add_mb10"><%= @beauty.move2 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @beauty.move3 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @beauty.move4 %></div>
+                         </div>
+                    </div>
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Weaknesses</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb30"><%= @beauty.weakness1 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @beauty.weakness2 %></div>
+                         </div>
+                    </div>
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Evolution</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb10"><%= @beauty.evolution1 %></div>
+                              <div class="rightcontent_main add_mb10"><%= @beauty.evolution2 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @beauty.evolution3 %></div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
