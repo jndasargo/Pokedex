@@ -1,70 +1,49 @@
-<%= link_to 'Home', controller: 'welcome' %>
-<h1>Make your own Pokemon!</h1>
-<%= form_for :smart, url: smarts_path do |f| %>
-  <p>
-    <%= f.label :pokemon %><br>
-    <%= f.text_field :pokemon %>
-  </p>
+<div class="div_setting">
+     <div class="main">
+          <%= form_for :smart, url: smarts_path do |f| %>
+          
+          <div class="sub_top">
+               <%= link_to 'Pokemon List', smarts_path,class:"button_link left"%>
+               <%= f.submit "Save", class:"button_link right"%>         
+          </div>
+         
+          <div class="sub_bottom">
+               <div class="sub_left">
+                    <img src="c.png" class="pokemon_profile"/>
+                    <p class="p_title">Pokemon</p>
+                    <center>
+                         <%= f.text_field :pokemon, class:'p_input p_border add_mb20' %>
+                    </center>
+                    <p class="p_title">Trainer</p>
+                    <center>
+                         <%= f.text_field :trainer,class:"p_input p_border" %>
+                    </center>
+               </div>
 
-  <p>
-    <%= f.label :trainer %><br>
-    <%= f.text_field :trainer %>
-  </p>
- 
-  <p>
-    <%= f.label :type %><br>
-  </p>
-  <p>  
-  1<%= f.text_field :type1 %>
-  </p>
-  <p>
-  2<%= f.text_field :type2 %>
-  </p>
+               <div class="sub_right">
+                    <p class="p_title add_mt20">Types</p>
+                         <%= f.text_field :type1, class:"p2_input p_border m_b", placeholder:"1 (required)" %>
+                         <%= f.text_field :type2, class:"p2_input p_border m_b", placeholder:"2" %>
+                    
+                    <p class="p_title add_mt20">Moves</p>
+                         <%= f.text_field :move1, class:"p2_input p_border", placeholder:"1 (required)" %>
+                         <%= f.text_field :move2, class:"p2_input p_border", placeholder:"2" %>
+                         <%= f.text_field :move3, class:"p2_input p_border m_b", placeholder:"3" %>
+                         <%= f.text_field :move4, class:"p2_input p_border m_b", placeholder:"4" %>
 
-  <p>
-    <%= f.label :move %><br>
-    1<%= f.text_field :move1 %>
-  </p>
+                    <p class="p_title add_mt20">Weakness</p>
+                         <%= f.text_field :weakness1, class:"p2_input p_border m_b", placeholder:"1 (required)" %>
+                         <%= f.text_field :weakness2, class:"p2_input p_border m_b", placeholder:"1" %>
+                    
+                    <p class="p_title add_mt20">Evolution</p>
+                         <%= f.text_field :evolution1, class:"p2_input p_border", placeholder:"1"%>
+                         <%= f.text_field :evolution2, class:"p2_input p_border", placeholder:"2"%>
+                         <center>
+                         <%= f.text_field :evolution3, class:"p2_input p_border m_b", placeholder:"3",style:"float:none" %>
+                         </center>
+               </div>
+          </div>
 
-  <p>
-  
-    2<%= f.text_field :move2 %>
-  </p>
-
-  <p>
-  
-    3<%= f.text_field :move3 %>
-  </p>
-
-  <p>
-    4<%= f.text_field :move4 %>
-  </p>
-
-  <p>
-    <%= f.label :weakness %><br>
-
-    1<%= f.text_field :weakness1 %>
-  </p>
-
-  <p>
-    2<%= f.text_field :weakness2 %>
-  </p>
-
-  <p>
-    <%= f.label :evolution %><br>
-    1<%= f.text_field :evolution1 %>
-  </p>
-
-  <p>
-    2<%= f.text_field :evolution2 %>
-  </p>
-
-  <p>
-    3<%= f.text_field :evolution3 %>
-  </p>
-
-  <p>
-    <%= f.submit "Save"%>
-  </p>
-<% end %>
-<%= link_to 'Back', smarts_path %>
+          <% end %>
+     </div>
+</div>
