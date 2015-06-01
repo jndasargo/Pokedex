@@ -14003,3 +14003,819 @@ Processing by CoolsController#show as HTML
   [1m[35mCool Load (0.7ms)[0m  SELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1  [["id", 1]]
   Rendered cools/show.html.erb within layouts/application (1.7ms)
 Completed 200 OK in 111ms (Views: 108.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (88.8ms)
+Completed 200 OK in 198ms (Views: 196.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:01 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:38:03 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 132ms (Views: 130.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cools/new" for 127.0.0.1 at 2015-06-01 21:38:05 +0800
+Processing by CoolsController#new as HTML
+  Rendered cools/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 138ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cools" for 127.0.0.1 at 2015-06-01 21:38:21 +0800
+Processing by CoolsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SivX47Ue7ZCnr109Lj5+X9XnAEEtx37JIU4f3NgMpH9JU2wG8AJYuJSrOR2qhbzlQVhFdde0IbnoTZmU8btB5g==", "cool"=>{"pokemon"=>"ahysda", "trainer"=>"uiiyii", "type1"=>"guk", "type2"=>"kiugiu", "move1"=>"uyiyi", "move2"=>"kjhkh", "move3"=>"kkhk", "move4"=>"hiuhih", "weakness1"=>"iuhih", "weakness2"=>"khk", "evolution1"=>"h", "evolution2"=>"kjh", "evolution3"=>"kh"}, "commit"=>"Save"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (95.6ms)[0m  [1mINSERT INTO "cools" ("pokemon", "trainer", "type1", "type2", "move1", "move2", "move3", "move4", "weakness1", "weakness2", "evolution1", "evolution2", "evolution3", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["pokemon", "ahysda"], ["trainer", "uiiyii"], ["type1", "guk"], ["type2", "kiugiu"], ["move1", "uyiyi"], ["move2", "kjhkh"], ["move3", "kkhk"], ["move4", "hiuhih"], ["weakness1", "iuhih"], ["weakness2", "khk"], ["evolution1", "h"], ["evolution2", "kjh"], ["evolution3", "kh"], ["created_at", "2015-06-01 13:38:21.335522"], ["updated_at", "2015-06-01 13:38:21.335522"]]
+  [1m[35m (246.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/cools/2
+Completed 302 Found in 351ms (ActiveRecord: 342.1ms)
+
+
+Started GET "/cools/2" for 127.0.0.1 at 2015-06-01 21:38:21 +0800
+Processing by CoolsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCool Load (0.2ms)[0m  [1mSELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cools/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 100ms (Views: 98.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:38:22 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:38:24 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 96ms (Views: 94.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:42:46 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (108.5ms)
+Completed 200 OK in 238ms (Views: 237.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:42:46 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (109.4ms)
+Completed 200 OK in 229ms (Views: 228.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:42:47 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:42:51 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:42:51 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cools/new" for 127.0.0.1 at 2015-06-01 21:42:54 +0800
+Processing by CoolsController#new as HTML
+  Rendered cools/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 110ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:42:56 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.5ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 186ms (Views: 183.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:42:59 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (94.1ms)
+Completed 200 OK in 192ms (Views: 191.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:00 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:43:01 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (6.2ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 161ms (Views: 153.7ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:43:01 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 162ms (Views: 160.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (79.4ms)
+Completed 200 OK in 168ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:03 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:43:04 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.4ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 141ms (Views: 139.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:43:04 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.6ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 123ms (Views: 121.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (105.6ms)
+Completed 200 OK in 219ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:07 +0800
+
+
+Started GET "/beauties" for 127.0.0.1 at 2015-06-01 21:43:09 +0800
+Processing by BeautiesController#index as HTML
+  [1m[35mBeauty Load (0.3ms)[0m  SELECT "beauties".* FROM "beauties"
+  Rendered beauties/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 119ms (Views: 105.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/beauties/new" for 127.0.0.1 at 2015-06-01 21:43:12 +0800
+Processing by BeautiesController#new as HTML
+  Rendered beauties/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 131ms (Views: 130.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/beauties" for 127.0.0.1 at 2015-06-01 21:43:21 +0800
+Processing by BeautiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XNPLPY/9FdYmW94vrUKWXQVyeIdWgRtUGBdBcUpzEetfq3DYyuGg/hVfug8p+VTnkc09s6zyRCTRFMc5Y8T0cg==", "beauty"=>{"pokemon"=>"qhj", "trainer"=>"kjhkj", "type1"=>"k", "type2"=>"jhk", "move1"=>"kjhk", "move2"=>"hkjk", "move3"=>"hkh", "move4"=>"kjhk", "weakness1"=>"hkj", "weakness2"=>"hk", "evolution1"=>"hkjh", "evolution2"=>"khk", "evolution3"=>"jhk"}, "commit"=>"Save"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (13.4ms)[0m  INSERT INTO "beauties" ("pokemon", "trainer", "type1", "type2", "move1", "move2", "move3", "move4", "weakness1", "weakness2", "evolution1", "evolution2", "evolution3", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["pokemon", "qhj"], ["trainer", "kjhkj"], ["type1", "k"], ["type2", "jhk"], ["move1", "kjhk"], ["move2", "hkjk"], ["move3", "hkh"], ["move4", "kjhk"], ["weakness1", "hkj"], ["weakness2", "hk"], ["evolution1", "hkjh"], ["evolution2", "khk"], ["evolution3", "jhk"], ["created_at", "2015-06-01 13:43:21.992475"], ["updated_at", "2015-06-01 13:43:21.992475"]]
+  [1m[36m (91.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/beauties/1
+Completed 302 Found in 129ms (ActiveRecord: 105.0ms)
+
+
+Started GET "/beauties/1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+Processing by BeautiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeauty Load (0.4ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered beauties/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 128ms (Views: 123.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:22 +0800
+
+
+Started GET "/beauties" for 127.0.0.1 at 2015-06-01 21:43:25 +0800
+Processing by BeautiesController#index as HTML
+  [1m[36mBeauty Load (0.3ms)[0m  [1mSELECT "beauties".* FROM "beauties"[0m
+  Rendered beauties/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 88ms (Views: 86.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/beauties/1" for 127.0.0.1 at 2015-06-01 21:43:29 +0800
+Processing by BeautiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeauty Load (0.2ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered beauties/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 90ms (Views: 88.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/beauties/1/edit" for 127.0.0.1 at 2015-06-01 21:43:32 +0800
+Processing by BeautiesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBeauty Load (0.2ms)[0m  [1mSELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered beauties/edit.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 109ms (Views: 107.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (94.9ms)
+Completed 200 OK in 231ms (Views: 229.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (95.1ms)
+Completed 200 OK in 190ms (Views: 189.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:43:38 +0800
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:45:44 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (106.7ms)
+Completed 200 OK in 219ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:45:45 +0800
+
+
+Started GET "/smarts" for 127.0.0.1 at 2015-06-01 21:45:48 +0800
+Processing by SmartsController#index as HTML
+  [1m[35mSmart Load (0.3ms)[0m  SELECT "smarts".* FROM "smarts"
+  Rendered smarts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 116ms (Views: 95.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/smarts" for 127.0.0.1 at 2015-06-01 21:45:59 +0800
+Processing by SmartsController#index as HTML
+  [1m[36mSmart Load (0.3ms)[0m  [1mSELECT "smarts".* FROM "smarts"[0m
+  Rendered smarts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 99ms (Views: 98.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:00 +0800
+
+
+Started GET "/smarts/new" for 127.0.0.1 at 2015-06-01 21:46:02 +0800
+Processing by SmartsController#new as HTML
+  Rendered smarts/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 106ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/smarts" for 127.0.0.1 at 2015-06-01 21:46:13 +0800
+Processing by SmartsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zDP2xBb/w9RXn793ehnvElvqJYKtWowmZ/DWg1JQN6rPS00hU+N2/GSb21f+oi2oz1Vgtlcp01au81DLe+fSMw==", "smart"=>{"pokemon"=>"qkjk", "trainer"=>"hjqkw", "type1"=>"kjhkqhw", "type2"=>"jhkqhw", "move1"=>"kjlhkjwh", "move2"=>"kjhkjwh", "move3"=>"kjhkjh", "move4"=>"kjhk", "weakness1"=>"hk", "weakness2"=>"jkjh", "evolution1"=>"kjh", "evolution2"=>"khjk", "evolution3"=>"khj"}, "commit"=>"Save"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "smarts" ("pokemon", "trainer", "type1", "type2", "move1", "move2", "move3", "move4", "weakness1", "weakness2", "evolution1", "evolution2", "evolution3", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["pokemon", "qkjk"], ["trainer", "hjqkw"], ["type1", "kjhkqhw"], ["type2", "jhkqhw"], ["move1", "kjlhkjwh"], ["move2", "kjhkjwh"], ["move3", "kjhkjh"], ["move4", "kjhk"], ["weakness1", "hk"], ["weakness2", "jkjh"], ["evolution1", "kjh"], ["evolution2", "khjk"], ["evolution3", "khj"], ["created_at", "2015-06-01 13:46:13.323214"], ["updated_at", "2015-06-01 13:46:13.323214"]]
+  [1m[35m (89.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/smarts/1
+Completed 302 Found in 115ms (ActiveRecord: 90.7ms)
+
+
+Started GET "/smarts/1" for 127.0.0.1 at 2015-06-01 21:46:13 +0800
+Processing by SmartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSmart Load (0.4ms)[0m  [1mSELECT  "smarts".* FROM "smarts" WHERE "smarts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered smarts/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 140ms (Views: 138.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:14 +0800
+
+
+Started GET "/smarts" for 127.0.0.1 at 2015-06-01 21:46:16 +0800
+Processing by SmartsController#index as HTML
+  [1m[35mSmart Load (0.4ms)[0m  SELECT "smarts".* FROM "smarts"
+  Rendered smarts/index.html.erb within layouts/application (28.9ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `beauty' for #<#<Class:0x007f2b7cc89b60>:0x007f2b6102cf40>):
+    20:                             <td style="width:32.5%"><%= smart.pokemon %></td>
+    21:                             <td style="width:32.5%"><%= smart.trainer %></td>
+    22:                             <td style="width:30%">
+    23:                               <%= link_to 'Destroy', smart_path(beauty),method: :delete,data: { confirm: 'Are you sure?' } %>
+    24:                               <%= link_to 'Edit', edit_smart_path(beauty) %>
+    25:                               <%= link_to 'Show', smart_path(beauty) %>
+    26:                             </td>
+  app/views/smarts/index.html.erb:23:in `block in _app_views_smarts_index_html_erb___1366789271212362018_69912154152540'
+  app/views/smarts/index.html.erb:17:in `_app_views_smarts_index_html_erb___1366789271212362018_69912154152540'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (24.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (51.0ms)
+
+
+Started GET "/smarts" for 127.0.0.1 at 2015-06-01 21:46:17 +0800
+Processing by SmartsController#index as HTML
+  [1m[36mSmart Load (0.3ms)[0m  [1mSELECT "smarts".* FROM "smarts"[0m
+  Rendered smarts/index.html.erb within layouts/application (24.0ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined local variable or method `beauty' for #<#<Class:0x007f2b7cc89b60>:0x007f2b629d7418>):
+    20:                             <td style="width:32.5%"><%= smart.pokemon %></td>
+    21:                             <td style="width:32.5%"><%= smart.trainer %></td>
+    22:                             <td style="width:30%">
+    23:                               <%= link_to 'Destroy', smart_path(beauty),method: :delete,data: { confirm: 'Are you sure?' } %>
+    24:                               <%= link_to 'Edit', edit_smart_path(beauty) %>
+    25:                               <%= link_to 'Show', smart_path(beauty) %>
+    26:                             </td>
+  app/views/smarts/index.html.erb:23:in `block in _app_views_smarts_index_html_erb___1366789271212362018_69912155567060'
+  app/views/smarts/index.html.erb:17:in `_app_views_smarts_index_html_erb___1366789271212362018_69912155567060'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (23.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (48.9ms)
+
+
+Started GET "/smarts" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+Processing by SmartsController#index as HTML
+  [1m[35mSmart Load (0.5ms)[0m  SELECT "smarts".* FROM "smarts"
+  Rendered smarts/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 114ms (Views: 111.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:39 +0800
+
+
+Started GET "/smarts/1" for 127.0.0.1 at 2015-06-01 21:46:48 +0800
+Processing by SmartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSmart Load (0.2ms)[0m  [1mSELECT  "smarts".* FROM "smarts" WHERE "smarts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered smarts/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/smarts/1/edit" for 127.0.0.1 at 2015-06-01 21:46:51 +0800
+Processing by SmartsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSmart Load (0.2ms)[0m  SELECT  "smarts".* FROM "smarts" WHERE "smarts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered smarts/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 110ms (Views: 108.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:46:58 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (88.6ms)
+Completed 200 OK in 213ms (Views: 211.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:46:59 +0800
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (111.3ms)
+Completed 200 OK in 218ms (Views: 216.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:53:01 +0800
+
+
+Started GET "/toughs" for 127.0.0.1 at 2015-06-01 21:53:04 +0800
+Processing by ToughsController#index as HTML
+  [1m[36mTough Load (0.4ms)[0m  [1mSELECT "toughs".* FROM "toughs"[0m
+  Rendered toughs/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 127ms (Views: 115.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/toughs/1" for 127.0.0.1 at 2015-06-01 21:53:16 +0800
+Processing by ToughsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTough Load (0.3ms)[0m  SELECT  "toughs".* FROM "toughs" WHERE "toughs"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered toughs/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 116ms (Views: 113.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/toughs" for 127.0.0.1 at 2015-06-01 21:53:18 +0800
+Processing by ToughsController#index as HTML
+  [1m[36mTough Load (0.4ms)[0m  [1mSELECT "toughs".* FROM "toughs"[0m
+  Rendered toughs/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 140ms (Views: 138.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/toughs/1/edit" for 127.0.0.1 at 2015-06-01 21:53:20 +0800
+Processing by ToughsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTough Load (0.2ms)[0m  SELECT  "toughs".* FROM "toughs" WHERE "toughs"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered toughs/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/toughs" for 127.0.0.1 at 2015-06-01 21:53:22 +0800
+Processing by ToughsController#index as HTML
+  [1m[36mTough Load (0.4ms)[0m  [1mSELECT "toughs".* FROM "toughs"[0m
+  Rendered toughs/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 129ms (Views: 127.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/toughs/new" for 127.0.0.1 at 2015-06-01 21:53:27 +0800
+Processing by ToughsController#new as HTML
+  Rendered toughs/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 135ms (Views: 134.0ms | ActiveRecord: 0.0ms)

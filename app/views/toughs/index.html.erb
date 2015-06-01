@@ -1,25 +1,34 @@
-<%= link_to 'Home', controller: 'welcome' %>
-<%= link_to 'New Pokemon', new_tough_path %>
-<h1>Tough</h1>
+<div class="div_setting">
+     <div class="main">
+          <div class="sub_top">
+               <a href="../welcome/index" class="button_link left index_special">Home</a>
+               <%= link_to 'Register', new_tough_path, class:"button_link right index_special"%>
+          </div>
 
-<table>
-  <tr>
-    <th>Pokemon</th>
-    <th>Trainer</th>
-
-    <th colspan="5"></th>
-  </tr>
- 
-  <% @toughs.each do |tough| %>
-    <tr>
-      <td><%= tough.pokemon %></td>
-      <td><%= tough.trainer %></td>
-     
-      <td><%= link_to 'Show', tough_path(tough) %></td>
-      <td><%= link_to 'Edit', edit_tough_path(tough) %></td>
-      <td><%= link_to 'Destroy', tough_path(tough),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
-    </tr>
-  <% end %>
-</table>
+          <div class="sub_bottom">
+               <div class="p_thead">
+                    <span class="p_span" style="padding-left:10px;padding-right:220px;">Pokemon</span>
+                    <span class="p_span" style="padding-right:235px;">Trainer</span>
+                    <span class="p_span">Action</span>
+               </div>
+               <div class="sub_table">
+               <table class="table table-hover">
+                    <tbody>
+                         <% @toughs.each do |tough| %>
+                         <tr>
+                         <td style="width:5%"><img src="" class="pokemon_profile_small"/></td>
+                            <td style="width:32.5%"><%= tough.pokemon %></td>
+                            <td style="width:32.5%"><%= tough.trainer %></td>
+                            <td style="width:30%">
+                              <%= link_to 'Destroy', tough_path(tough),method: :delete,data: { confirm: 'Are you sure?' } %>
+                              <%= link_to 'Edit', edit_tough_path(tough) %>
+                              <%= link_to 'Show', tough_path(tough) %>
+                            </td>
+                         </tr>
+                         <% end %>
+                    </tbody>
+               </table>
+               </div>
+          </div>
+     </div>
+</div>

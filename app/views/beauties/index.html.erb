@@ -1,25 +1,37 @@
-<%= link_to 'Home', controller: 'welcome' %>
-<%= link_to 'New Pokemon', new_beauty_path %>
-<h1>Beauty</h1>
+<div class="div_setting">
+     <div class="main">
+          <div class="sub_top">
+               <a href="../welcome/index" class="button_link left index_special">Home</a>
+               <%= link_to 'Register', new_beauty_path, class:"button_link right index_special"%>
+          </div>
 
-<table>
-  <tr>
-    <th>Pokemon</th>
-    <th>Trainer</th>
-
-    <th colspan="5"></th>
-  </tr>
- 
-  <% @beauties.each do |beauty| %>
-    <tr>
-      <td><%= beauty.pokemon %></td>
-      <td><%= beauty.trainer %></td>
-     
-      <td><%= link_to 'Show', beauty_path(beauty) %></td>
-      <td><%= link_to 'Edit', edit_beauty_path(beauty) %></td>
-      <td><%= link_to 'Destroy', beauty_path(beauty),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
-    </tr>
-  <% end %>
-</table>
+          <div class="sub_bottom">
+               <div class="p_thead">
+                    <span class="p_span" style="padding-left:10px;padding-right:220px;">Pokemon</span>
+                    <span class="p_span" style="padding-right:235px;">Trainer</span>
+                    <span class="p_span">Action</span>
+               </div>
+               <div class="sub_table">
+               <table class="table table-hover">
+                    <tbody>
+                         <% @beauties.each do |beauty| %>
+                         <tr>
+                         <td style="width:5%"><img src="" class="pokemon_profile_small"/></td>
+                            <td style="width:32.5%"><%= beauty.pokemon %></td>
+                            <td style="width:32.5%"><%= beauty.trainer %></td>
+                            <td style="width:30%">
+                              <!-- <a href="">Remove</a> -->
+                              <%= link_to 'Destroy', beauty_path(beauty),method: :delete,data: { confirm: 'Are you sure?' } %>
+                              <!-- <a href="">Edit</a> -->
+                              <%= link_to 'Edit', edit_beauty_path(beauty) %>
+                              <!-- <a href="">Show</a> -->
+                              <%= link_to 'Show', beauty_path(beauty) %>
+                            </td>
+                         </tr>
+                         <% end %>
+                    </tbody>
+               </table>
+               </div>
+          </div>
+     </div>
+</div>
