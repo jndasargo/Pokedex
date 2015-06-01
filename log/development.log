@@ -12353,3 +12353,1653 @@ Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127
 
 
 Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 20:44:26 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 20:47:38 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.3ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cools/1" for 127.0.0.1 at 2015-06-01 20:47:46 +0800
+Processing by CoolsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCool Load (417.2ms)[0m  SELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cools/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 652ms (Views: 129.2ms | ActiveRecord: 417.2ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 20:47:48 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (82.5ms)
+Completed 200 OK in 170ms (Views: 169.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:49:47 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 20:49:49 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.4ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 96ms (Views: 93.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 20:52:52 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 174ms (Views: 173.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:52 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 20:52:53 +0800
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:06:09 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (139.6ms)
+Completed 200 OK in 3844ms (Views: 3843.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-3d93fc61b8110e45cde6f07222cef06e.css?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:06:13 +0800
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:06:59 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (111.4ms)
+Completed 200 OK in 4101ms (Views: 4100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/application-133c29d70054c506c4a0bcd352a58e7e.css?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:03 +0800
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:07:26 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (225.5ms)
+Completed 200 OK in 389ms (Views: 370.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 21:07:31 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (91.5ms)
+Completed 200 OK in 227ms (Views: 226.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:07:32 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:07:46 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 185ms (Views: 171.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:09:40 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.5ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 149ms (Views: 147.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-133c29d70054c506c4a0bcd352a58e7e.css?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+
+Started GET "/c.png" for 127.0.0.1 at 2015-06-01 21:09:41 +0800
+
+ActionController::RoutingError (No route matches [GET] "/c.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (129.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (45.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (76.8ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:10:19 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.4ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 160ms (Views: 158.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-133c29d70054c506c4a0bcd352a58e7e.css?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:10:20 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:15:32 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.3ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 171ms (Views: 170.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/application-133c29d70054c506c4a0bcd352a58e7e.css?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:15:33 +0800
+
+
+Started GET "/cools/1" for 127.0.0.1 at 2015-06-01 21:15:36 +0800
+Processing by CoolsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCool Load (0.4ms)[0m  SELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cools/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 148ms (Views: 116.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cools/1/edit" for 127.0.0.1 at 2015-06-01 21:15:46 +0800
+Processing by CoolsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCool Load (0.2ms)[0m  [1mSELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cools/edit.html.erb within layouts/application (80.5ms)
+Completed 200 OK in 205ms (Views: 203.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/edit.html" for 127.0.0.1 at 2015-06-01 21:16:23 +0800
+
+ActionController::RoutingError (No route matches [GET] "/edit.html"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (22.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (46.5ms)
+
+
+Started GET "/edit.html" for 127.0.0.1 at 2015-06-01 21:16:23 +0800
+
+ActionController::RoutingError (No route matches [GET] "/edit.html"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (25.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (51.6ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:17:07 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.6ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 121ms (Views: 118.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/application-133c29d70054c506c4a0bcd352a58e7e.css?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:17:08 +0800
+
+
+Started GET "/cools/1/edit" for 127.0.0.1 at 2015-06-01 21:17:12 +0800
+Processing by CoolsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCool Load (0.2ms)[0m  [1mSELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cools/edit.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:19:03 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.8ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 4461ms (Views: 4459.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:07 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:07 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:07 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:07 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:08 +0800
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:19:08 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:08 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:08 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:08 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:08 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:19:08 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:20:53 +0800
+Processing by CoolsController#index as HTML
+  Rendered cools/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:31: syntax error, unexpected '='
+... Pokemon', new_cool_path,class="button_link right index_spec...
+...                               ^
+/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:44: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;                          @cools.each do |cool| 
+                                                 ^
+/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/cools/index.html.erb:31: syntax error, unexpected '='
+  app/views/cools/index.html.erb:44: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/cools/index.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (1.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (23.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (49.6ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:21:08 +0800
+Processing by CoolsController#index as HTML
+  Rendered cools/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:31: syntax error, unexpected '='
+... Pokemon', new_cool_path,class="button_link right index_spec...
+...                               ^
+/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:44: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;                          @cools.each do |cool| 
+                                                 ^
+/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/cools/index.html.erb:31: syntax error, unexpected '='
+  app/views/cools/index.html.erb:44: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/cools/index.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (24.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (1.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (51.4ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:21:19 +0800
+Processing by CoolsController#index as HTML
+  Rendered cools/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:31: syntax error, unexpected '='
+... Pokemon', new_cool_path,class="button_link right index_spec...
+...                               ^
+/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:44: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;                          @cools.each do |cool| 
+                                                 ^
+/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/cools/index.html.erb:31: syntax error, unexpected '='
+  app/views/cools/index.html.erb:44: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/cools/index.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (24.1ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (1.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (50.4ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 126ms (Views: 124.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:38 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.5ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 158ms (Views: 156.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:21:45 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 146ms (Views: 145.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:22:02 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.4ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 140ms (Views: 139.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:23:50 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 133ms (Views: 132.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:06 +0800
+
+
+Started GET "/cools/new" for 127.0.0.1 at 2015-06-01 21:24:10 +0800
+Processing by CoolsController#new as HTML
+  Rendered cools/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 138ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:24:44 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 178ms (Views: 177.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:24:45 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:25:33 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.3ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 142ms (Views: 140.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:34 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 137ms (Views: 135.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:35 +0800
+
+
+Started GET "/welcome/index?class=button_link+left+index_special" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"button_link left index_special"}
+  Rendered welcome/index.html.erb within layouts/application (83.7ms)
+Completed 200 OK in 172ms (Views: 171.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:25:37 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:25:40 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:26:28 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (2.6ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 150ms (Views: 146.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:29 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 181ms (Views: 177.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:30 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:31 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:31 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:31 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:26:31 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:26:47 +0800
+Processing by CoolsController#index as HTML
+  Rendered cools/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:30: syntax error, unexpected ',', expecting :: or '[' or '.'
+...link_to, new_cool_path, 'Home',class:"button_link left index...
+...                               ^):
+  app/views/cools/index.html.erb:30: syntax error, unexpected ',', expecting :: or '[' or '.'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (23.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (48.7ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:27:04 +0800
+Processing by CoolsController#index as HTML
+  Rendered cools/index.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 14ms
+
+SyntaxError (/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+...( link_to, new_cool_path,class:"button_link left index_speci...
+...                               ^):
+  app/views/cools/index.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (22.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (48.2ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:27:06 +0800
+Processing by CoolsController#index as HTML
+  Rendered cools/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/home/kldulatre/DevCamp/Pokedex/app/views/cools/index.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+...( link_to, new_cool_path,class:"button_link left index_speci...
+...                               ^):
+  app/views/cools/index.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (22.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (47.9ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:27:20 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.4ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 174ms (Views: 173.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:21 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:27:49 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 172ms (Views: 170.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:50 +0800
+
+
+Started GET "/welcome/index?class=button_link+left+index_special" for 127.0.0.1 at 2015-06-01 21:27:54 +0800
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"button_link left index_special"}
+  Rendered welcome/index.html.erb within layouts/application (88.8ms)
+Completed 200 OK in 199ms (Views: 197.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:27:55 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:27:57 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.4ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:31:46 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.3ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    26: <div class="div_setting">
+    27:      <div class="main">
+    28:           <div class="sub_top">
+    29:                <a href="<%controller:'welcome'%>" class="button_link left index_special">Home</a>
+    30:                <!-- <%= link_to 'Home', controller: 'welcome',class:"button_link left index_special" %> -->
+    31:                <!-- <a href="edit.html" class="button_link right index_special">Register</a> -->
+    32:                <%= link_to 'Register', new_cool_path, class:"button_link right index_special"%>
+  app/views/cools/index.html.erb:29:in `_app_views_cools_index_html_erb__3173462276653103173_69912389464220'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.1ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (22.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (47.5ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.4ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:33 +0800
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:33:34 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (77.3ms)
+Completed 200 OK in 198ms (Views: 197.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:35 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:33:41 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.3ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 134ms (Views: 132.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 21:33:42 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (96.1ms)
+Completed 200 OK in 200ms (Views: 198.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:33:43 +0800
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:33:44 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 120ms (Views: 118.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cools/new" for 127.0.0.1 at 2015-06-01 21:33:45 +0800
+Processing by CoolsController#new as HTML
+  Rendered cools/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:33:47 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.3ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 130ms (Views: 128.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:33:47 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cools/1" for 127.0.0.1 at 2015-06-01 21:33:51 +0800
+Processing by CoolsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCool Load (0.5ms)[0m  [1mSELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cools/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 96ms (Views: 93.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:33:53 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 191ms (Views: 189.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:33:53 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.4ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 158ms (Views: 156.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:34:22 +0800
+Processing by CoolsController#index as HTML
+  [1m[35mCool Load (0.3ms)[0m  SELECT "cools".* FROM "cools"
+  Rendered cools/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 143ms (Views: 141.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-ffa1594af42448abf1877506e8708779.css?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:34:23 +0800
+
+
+Started GET "/cools/new" for 127.0.0.1 at 2015-06-01 21:34:33 +0800
+Processing by CoolsController#new as HTML
+  Rendered cools/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cools" for 127.0.0.1 at 2015-06-01 21:35:33 +0800
+Processing by CoolsController#index as HTML
+  [1m[36mCool Load (0.5ms)[0m  [1mSELECT "cools".* FROM "cools"[0m
+  Rendered cools/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 4035ms (Views: 4032.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 21:35:37 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 21:35:38 +0800
+
+
+Started GET "/cools/1" for 127.0.0.1 at 2015-06-01 21:35:55 +0800
+Processing by CoolsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCool Load (0.7ms)[0m  SELECT  "cools".* FROM "cools" WHERE "cools"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cools/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 111ms (Views: 108.8ms | ActiveRecord: 0.7ms)

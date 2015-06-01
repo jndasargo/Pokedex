@@ -1,25 +1,37 @@
-<%= link_to 'Home', controller: 'welcome' %>
-<%= link_to 'New Pokemon', new_cool_path %>
-<h1>Cool</h1>
+<div class="div_setting">
+     <div class="main">
+          <div class="sub_top">
+               <a href="../welcome/index" class="button_link left index_special">Home</a>
+               <%= link_to 'Register', new_cool_path, class:"button_link right index_special"%>
+          </div>
 
-<table>
-  <tr>
-    <th>Pokemon</th>
-    <th>Trainer</th>
-
-    <th colspan="5"></th>
-  </tr>
- 
-  <% @cools.each do |cool| %>
-    <tr>
-      <td><%= cool.pokemon %></td>
-      <td><%= cool.trainer %></td>
-     
-      <td><%= link_to 'Show', cool_path(cool) %></td>
-      <td><%= link_to 'Edit', edit_cool_path(cool) %></td>
-      <td><%= link_to 'Destroy', cool_path(cool),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
-    </tr>
-  <% end %>
-</table>
+          <div class="sub_bottom">
+               <div class="p_thead">
+                    <span class="p_span" style="padding-left:10px;padding-right:220px;">Pokemon</span>
+                    <span class="p_span" style="padding-right:235px;">Trainer</span>
+                    <span class="p_span">Action</span>
+               </div>
+               <div class="sub_table">
+               <table class="table table-hover">
+                    <tbody>
+                         <% @cools.each do |cool| %>
+                         <tr>
+                         <td style="width:5%"><img src="" class="pokemon_profile_small"/></td>
+                            <td style="width:32.5%"><%= cool.pokemon %></td>
+                            <td style="width:32.5%"><%= cool.trainer %></td>
+                            <td style="width:30%">
+                              <!-- <a href="">Remove</a> -->
+                              <%= link_to 'Destroy', cool_path(cool),method: :delete,data: { confirm: 'Are you sure?' } %>
+                              <!-- <a href="">Edit</a> -->
+                              <%= link_to 'Edit', edit_cool_path(cool) %>
+                              <!-- <a href="">Show</a> -->
+                              <%= link_to 'Show', cool_path(cool) %>
+                            </td>
+                         </tr>
+                         <% end %>
+                    </tbody>
+               </table>
+               </div>
+          </div>
+     </div>
+</div>
