@@ -20356,3 +20356,718 @@ Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for
 
 
 Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:11:08 +0800
+
+
+Started GET "/toughs/new" for 127.0.0.1 at 2015-06-01 23:12:39 +0800
+Processing by ToughsController#new as HTML
+  Rendered toughs/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/toughs/c.png" for 127.0.0.1 at 2015-06-01 23:12:39 +0800
+Processing by ToughsController#show as PNG
+  Parameters: {"id"=>"c"}
+  [1m[35mTough Load (0.2ms)[0m  SELECT  "toughs".* FROM "toughs" WHERE "toughs"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tough with 'id'=c):
+  app/controllers/toughs_controller.rb:7:in `show'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (32.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (72.3ms)
+
+
+Started POST "/toughs" for 127.0.0.1 at 2015-06-01 23:12:49 +0800
+Processing by ToughsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lztk7KLCP3fQFaS05igyPe7qjOmMwBW4edXwlZJpgQGUQ98J596KX+MRwJRik/CHelXJ3XazSsiw1nbdu95kmA==", "commit"=>"Save", "tough"=>{"pokemon"=>"erm", "trainer"=>"jaks", "type1"=>"lj", "type2"=>"lkhjh", "move1"=>"hkhjh", "move2"=>"khkhk", "move3"=>"hkjh", "move4"=>"khk", "weakness1"=>"hkh", "weakness2"=>"kh", "evolution1"=>"kkj", "evolution2"=>"hkjhkjh", "evolution3"=>"kjh"}}
+  [1m[36m (5.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "toughs" ("pokemon", "trainer", "type1", "type2", "move1", "move2", "move3", "move4", "weakness1", "weakness2", "evolution1", "evolution2", "evolution3", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["pokemon", "erm"], ["trainer", "jaks"], ["type1", "lj"], ["type2", "lkhjh"], ["move1", "hkhjh"], ["move2", "khkhk"], ["move3", "hkjh"], ["move4", "khk"], ["weakness1", "hkh"], ["weakness2", "kh"], ["evolution1", "kkj"], ["evolution2", "hkjhkjh"], ["evolution3", "kjh"], ["created_at", "2015-06-01 15:12:49.672313"], ["updated_at", "2015-06-01 15:12:49.672313"]]
+  [1m[36m (114.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/toughs/3
+Completed 302 Found in 131ms (ActiveRecord: 120.0ms)
+
+
+Started GET "/toughs/3" for 127.0.0.1 at 2015-06-01 23:12:49 +0800
+Processing by ToughsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTough Load (0.2ms)[0m  SELECT  "toughs".* FROM "toughs" WHERE "toughs"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered toughs/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 107ms (Views: 105.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+
+
+Started GET "/toughs/c.png" for 127.0.0.1 at 2015-06-01 23:12:50 +0800
+Processing by ToughsController#show as PNG
+  Parameters: {"id"=>"c"}
+  [1m[36mTough Load (0.2ms)[0m  [1mSELECT  "toughs".* FROM "toughs" WHERE "toughs"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tough with 'id'=c):
+  app/controllers/toughs_controller.rb:7:in `show'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (30.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (1.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (62.4ms)
+
+
+Started GET "/toughs" for 127.0.0.1 at 2015-06-01 23:12:53 +0800
+Processing by ToughsController#index as HTML
+  [1m[35mTough Load (0.3ms)[0m  SELECT "toughs".* FROM "toughs"
+  Rendered toughs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 143ms (Views: 142.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 23:12:55 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (126.6ms)
+Completed 200 OK in 224ms (Views: 223.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 23:12:56 +0800
+
+
+Started GET "/toughs/new" for 127.0.0.1 at 2015-06-01 23:13:03 +0800
+Processing by ToughsController#new as HTML
+  Rendered toughs/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/toughs/c.png" for 127.0.0.1 at 2015-06-01 23:13:03 +0800
+Processing by ToughsController#show as PNG
+  Parameters: {"id"=>"c"}
+  [1m[36mTough Load (0.2ms)[0m  [1mSELECT  "toughs".* FROM "toughs" WHERE "toughs"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tough with 'id'=c):
+  app/controllers/toughs_controller.rb:7:in `show'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (22.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (64.3ms)
+
+
+Started GET "/toughs" for 127.0.0.1 at 2015-06-01 23:13:06 +0800
+Processing by ToughsController#index as HTML
+  [1m[35mTough Load (0.3ms)[0m  SELECT "toughs".* FROM "toughs"
+  Rendered toughs/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/toughs/new" for 127.0.0.1 at 2015-06-01 23:13:08 +0800
+Processing by ToughsController#new as HTML
+  Rendered toughs/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/toughs/c.png" for 127.0.0.1 at 2015-06-01 23:13:08 +0800
+Processing by ToughsController#show as PNG
+  Parameters: {"id"=>"c"}
+  [1m[36mTough Load (0.2ms)[0m  [1mSELECT  "toughs".* FROM "toughs" WHERE "toughs"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tough with 'id'=c):
+  app/controllers/toughs_controller.rb:7:in `show'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (23.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (48.5ms)
+
+
+Started GET "/toughs" for 127.0.0.1 at 2015-06-01 23:13:40 +0800
+Processing by ToughsController#index as HTML
+  [1m[35mTough Load (0.3ms)[0m  SELECT "toughs".* FROM "toughs"
+  Rendered toughs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 98ms (Views: 96.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (91.1ms)
+Completed 200 OK in 188ms (Views: 187.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 23:13:45 +0800
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-01 23:21:27 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (99.6ms)
+Completed 200 OK in 202ms (Views: 201.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:28 +0800
+
+
+Started GET "/beauties" for 127.0.0.1 at 2015-06-01 23:21:30 +0800
+Processing by BeautiesController#index as HTML
+  [1m[36mBeauty Load (0.4ms)[0m  [1mSELECT "beauties".* FROM "beauties"[0m
+  Rendered beauties/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 122ms (Views: 120.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/beauties/1/edit" for 127.0.0.1 at 2015-06-01 23:21:32 +0800
+Processing by BeautiesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeauty Load (0.2ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered beauties/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 114ms (Views: 112.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/beauties/1/c.png" for 127.0.0.1 at 2015-06-01 23:21:32 +0800
+
+ActionController::RoutingError (No route matches [GET] "/beauties/1/c.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (19.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (43.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (68.4ms)
+
+
+Started PATCH "/beauties/1" for 127.0.0.1 at 2015-06-01 23:21:35 +0800
+Processing by BeautiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t+WBexEwRUkLx0YeYtCDwsi7UubspJ7mZbtfK4wQ/AG0nTqeVCzwYTjDIj7ma0F4XAQX0hbXwZasuNljpacZmA==", "commit"=>"Save", "beauty"=>{"pokemon"=>"qhj", "trainer"=>"kjhkj", "type1"=>"k", "type2"=>"jhk", "move1"=>"kjhk", "move2"=>"hkjk", "move3"=>"hkh", "move4"=>"kjhk", "weakness1"=>"hkj", "weakness2"=>"hk", "evolution1"=>"hkjh", "evolution2"=>"khk", "evolution3"=>"jhk"}, "id"=>"1"}
+  [1m[36mBeauty Load (0.2ms)[0m  [1mSELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/beauties/1
+Completed 302 Found in 29ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/beauties/1" for 127.0.0.1 at 2015-06-01 23:21:35 +0800
+Processing by BeautiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeauty Load (0.2ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered beauties/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 127ms (Views: 125.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+
+
+Started GET "/beauties/c.png" for 127.0.0.1 at 2015-06-01 23:21:36 +0800
+Processing by BeautiesController#show as PNG
+  Parameters: {"id"=>"c"}
+  [1m[36mBeauty Load (0.2ms)[0m  [1mSELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Beauty with 'id'=c):
+  app/controllers/beauties_controller.rb:7:in `show'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (39.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (74.6ms)
+
+
+Started GET "/beauties" for 127.0.0.1 at 2015-06-01 23:21:38 +0800
+Processing by BeautiesController#index as HTML
+  [1m[35mBeauty Load (0.4ms)[0m  SELECT "beauties".* FROM "beauties"
+  Rendered beauties/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/beauties" for 127.0.0.1 at 2015-06-01 23:21:38 +0800
+Processing by BeautiesController#index as HTML
+  [1m[36mBeauty Load (0.5ms)[0m  [1mSELECT "beauties".* FROM "beauties"[0m
+  Rendered beauties/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 122ms (Views: 120.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/beauties/2/edit" for 127.0.0.1 at 2015-06-01 23:21:41 +0800
+Processing by BeautiesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mBeauty Load (0.2ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered beauties/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 125ms (Views: 122.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/beauties/2/c.png" for 127.0.0.1 at 2015-06-01 23:21:42 +0800
+
+ActionController::RoutingError (No route matches [GET] "/beauties/2/c.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (22.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (47.2ms)
+
+
+Started PATCH "/beauties/2" for 127.0.0.1 at 2015-06-01 23:21:44 +0800
+Processing by BeautiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"23xtyEIE96bSqEwkRdC5F6LP40BpcP6MeWYdcjjJ2pjYBNYtBxhCjuGsKATBa3utNnCmdJMDofywZZs6EX4/AQ==", "commit"=>"Save", "beauty"=>{"pokemon"=>"Charizard2", "trainer"=>"Kenjie", "type1"=>"Fire", "type2"=>"Flying", "move1"=>"Fire Blast", "move2"=>"Ember", "move3"=>"Fire Punch", "move4"=>"Flamethrower", "weakness1"=>"Water", "weakness2"=>"", "evolution1"=>"Charmander", "evolution2"=>"Charmeleon", "evolution3"=>""}, "id"=>"2"}
+  [1m[36mBeauty Load (0.3ms)[0m  [1mSELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "beauties" SET "pokemon" = ?, "updated_at" = ? WHERE "beauties"."id" = ?[0m  [["pokemon", "Charizard2"], ["updated_at", "2015-06-01 15:21:44.883615"], ["id", 2]]
+  [1m[35m (96.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/beauties/2
+Completed 302 Found in 107ms (ActiveRecord: 96.9ms)
+
+
+Started GET "/beauties/2" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+Processing by BeautiesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBeauty Load (0.2ms)[0m  [1mSELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered beauties/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 93ms (Views: 91.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+
+
+Started GET "/beauties/c.png" for 127.0.0.1 at 2015-06-01 23:21:45 +0800
+Processing by BeautiesController#show as PNG
+  Parameters: {"id"=>"c"}
+  [1m[35mBeauty Load (5.5ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Beauty with 'id'=c):
+  app/controllers/beauties_controller.rb:7:in `show'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (1.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (35.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (1.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (1.0ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (72.9ms)
+
+
+Started GET "/beauties" for 127.0.0.1 at 2015-06-01 23:21:48 +0800
+Processing by BeautiesController#index as HTML
+  [1m[36mBeauty Load (0.3ms)[0m  [1mSELECT "beauties".* FROM "beauties"[0m
+  Rendered beauties/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/beauties/2/edit" for 127.0.0.1 at 2015-06-01 23:21:50 +0800
+Processing by BeautiesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mBeauty Load (0.2ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered beauties/edit.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 126ms (Views: 124.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/beauties/2/c.png" for 127.0.0.1 at 2015-06-01 23:21:50 +0800
+
+ActionController::RoutingError (No route matches [GET] "/beauties/2/c.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.1ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (28.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (55.6ms)
+
+
+Started PATCH "/beauties/2" for 127.0.0.1 at 2015-06-01 23:21:53 +0800
+Processing by BeautiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ydXO03SKJfEIzVpX7m7pgBFyFN8S9ovg8okQlB02SH7KrXU2MZaQ2TvJPndq1Ss6hc1R6+iF1JA7ipbcNIGt5w==", "commit"=>"Save", "beauty"=>{"pokemon"=>"Charizard", "trainer"=>"Kenjie", "type1"=>"Fire", "type2"=>"Flying", "move1"=>"Fire Blast", "move2"=>"Ember", "move3"=>"Fire Punch", "move4"=>"Flamethrower", "weakness1"=>"Water", "weakness2"=>"", "evolution1"=>"Charmander", "evolution2"=>"Charmeleon", "evolution3"=>""}, "id"=>"2"}
+  [1m[36mBeauty Load (0.2ms)[0m  [1mSELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE "beauties" SET "pokemon" = ?, "updated_at" = ? WHERE "beauties"."id" = ?[0m  [["pokemon", "Charizard"], ["updated_at", "2015-06-01 15:21:53.870419"], ["id", 2]]
+  [1m[35m (116.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/beauties/2
+Completed 302 Found in 125ms (ActiveRecord: 117.2ms)
+
+
+Started GET "/beauties/2" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+Processing by BeautiesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBeauty Load (0.2ms)[0m  [1mSELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered beauties/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 102ms (Views: 100.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+
+
+Started GET "/beauties/c.png" for 127.0.0.1 at 2015-06-01 23:21:54 +0800
+Processing by BeautiesController#show as PNG
+  Parameters: {"id"=>"c"}
+  [1m[35mBeauty Load (0.2ms)[0m  SELECT  "beauties".* FROM "beauties" WHERE "beauties"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Beauty with 'id'=c):
+  app/controllers/beauties_controller.rb:7:in `show'
+
+
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.6ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (26.1ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.7ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.8ms)
+  Rendered /home/kldulatre/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (53.5ms)
+
+
+Started GET "/beauties" for 127.0.0.1 at 2015-06-01 23:21:57 +0800
+Processing by BeautiesController#index as HTML
+  [1m[36mBeauty Load (0.5ms)[0m  [1mSELECT "beauties".* FROM "beauties"[0m
+  Rendered beauties/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.5ms)
