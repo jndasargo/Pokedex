@@ -1,41 +1,52 @@
-<%= link_to 'Home', controller: 'welcome' %>
-<%= link_to 'Edit', edit_cool_path(@cool) %>
+<div class="div_setting">
+     <div class="main">
+          <div class="sub_top">
+               <%= link_to 'Pokemon List', cools_path,  class:"button_link left"%>
+               <%= link_to 'Edit', edit_cool_path(@cool), class:"button_link right" %>
+          </div>
 
-<p>
-  <strong>Pokemon:</strong>
-  <%= @cool.pokemon %>
-</p>
- 
-<p>
-  <strong>Trainer:</strong>
-  <%= @cool.trainer %>
-</p>
+          <div class="sub_bottom">
+               <div class="sub_left">
+                    <img src="c.png" class="pokemon_profile"/>
+                    <p class="p_title">Pokemon</p>
+                    <p class="p_content add_mb20"><%= @cool.pokemon %></p>
+                    <p class="p_title">Trainer</p>
+                    <p class="p_content"><%= @cool.trainer %></p>
+               </div>
 
-<p>
-  <strong>Type:</strong>
-  1<%= @cool.type1 %>
-  2<%= @cool.type2 %>
-</p>
-
-<p>
-  <strong>Moves:</strong>
-  1<%= @cool.move1 %>
-  2<%= @cool.move2 %>
-  3<%= @cool.move3 %>
-  4<%= @cool.move4 %>
-</p>
-
-<p>
-  <strong>Weaknesses:</strong>
-  1<%= @cool.weakness1 %>
-  2<%= @cool.weakness2 %>
-</p>
-
-<p>
-  <strong>Evolution:</strong>
-  1<%= @cool.evolution1 %>
-  2<%= @cool.evolution2 %>
-  3<%= @cool.evolution3 %>
-</p>
-
-<%= link_to 'Back', cools_path %>
+               <div class="sub_right">
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Types</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb30"><%= @cool.type1 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @cool.type2 %></div>
+                         </div>
+                    </div>
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Moves</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb10"><%= @cool.move1 %></div>
+                              <div class="rightcontent_main add_mb10"><%= @cool.move2 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @cool.move3 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @cool.move4 %></div>
+                         </div>
+                    </div>
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Weaknesses</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb30"><%= @cool.weakness1 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @cool.weakness2 %></div>
+                         </div>
+                    </div>
+                    <div class="sub_rightcontent">
+                         <div class="rightcontent_title p_title add_mb10">Evolution</div>
+                         <div class="rightcontent">
+                              <div class="rightcontent_main add_mb10"><%= @cool.evolution1 %></div>
+                              <div class="rightcontent_main add_mb10"><%= @cool.evolution2 %></div>
+                              <div class="rightcontent_main add_mb30"><%= @cool.evolution3 %></div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
