@@ -23110,3 +23110,43 @@ Started GET "/welcome/index" for 127.0.0.1 at 2015-06-24 10:57:46 +0800
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (103.4ms)
 Completed 200 OK in 238ms (Views: 229.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-06-24 11:30:12 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (422.0ms)
+Completed 200 OK in 840ms (Views: 774.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-b2866813c6b4508604f12e2201032b06.css?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/beauties-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/cools-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/toughs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/smarts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
+
+
+Started GET "/assets/application-0294f8eaa61ba08eef89557bb462403f.js?body=1" for 127.0.0.1 at 2015-06-24 11:30:14 +0800
